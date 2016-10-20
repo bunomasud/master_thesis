@@ -22,17 +22,17 @@ How to Use it:
 
 3. Run Node Api/NodeApi.js to use the file path to know the detected libraries.
 
-4. Javascript worker is the sample java client that is using the NodeApi for analysis. CallToNodeAPI @JavaScriptWorker.java is a sample multithreaded implementation.
+4. Javascript worker is the sample java client that is using the NodeApi for analysis.  Method getLibraryNames & CallToNodeAPI @JavaScriptWorker.java is a sample multithreaded implementation.
 
 
 
-  [1]	Common Vulnerabilities and Exposures, CVE: http://cve.mitre.org/index.html.
-	[2]	National Vulnerability Database, NVD: https://nvd.nist.gov/
-	[3]	OWSAP Top 10 2013-A9-Using Components with Known Vulnerabilities: https://www.owasp.org/index.php/Top_10_2013-A9-Using_Components_with_Known_Vulnerabilities
-	[4]	Rainer Koschke, Raimar Falke, Pierre Frenzel. Clone Detection Using Abstract Syntax Suffix Trees, ISBN:0-7695-2719-1, 2006
-	[5]	Michel Chilowicz, Etienne Duris, Gilles Roussel. Syntax tree fingerprinting for source code similarity detection. ISBN: 978-1-4244-3998-0,2009
-	[6]	Saul Schleimer Daniel S. Wilkerson Alex Aiken. Winnowing: Local Algorithms for Document Fingerprinting. ISBN: 1-58113-634-X, 2003
-	[7]	Oshihiro Kamiya, Shinji Kusumoto, Katsuro Inoue. CCFinder: A Multilinguistic Token-BasedCode Clone Detection System for Large Scale Source Code. IEEE Transactions on Software Engineering archive Volume 28 Issue 7, July 2002, Page 654-670.
+[1]	Common Vulnerabilities and Exposures, CVE: http://cve.mitre.org/index.html.
+[2]	National Vulnerability Database, NVD: https://nvd.nist.gov/
+[3]	OWSAP Top 10 2013-A9-Using Components with Known Vulnerabilities: https://www.owasp.org/index.php/Top_10_2013-A9-Using_Components_with_Known_Vulnerabilities
+[4]	Rainer Koschke, Raimar Falke, Pierre Frenzel. Clone Detection Using Abstract Syntax Suffix Trees, ISBN:0-7695-2719-1, 2006
+[5]	Michel Chilowicz, Etienne Duris, Gilles Roussel. Syntax tree fingerprinting for source code similarity detection. ISBN: 978-1-4244-3998-0,2009
+[6]	Saul Schleimer Daniel S. Wilkerson Alex Aiken. Winnowing: Local Algorithms for Document Fingerprinting. ISBN: 1-58113-634-X, 2003
+[7]	Oshihiro Kamiya, Shinji Kusumoto, Katsuro Inoue. CCFinder: A Multilinguistic Token-BasedCode Clone Detection System for Large Scale Source Code. IEEE Transactions on Software Engineering archive Volume 28 Issue 7, July 2002, Page 654-670.
 
 
 
