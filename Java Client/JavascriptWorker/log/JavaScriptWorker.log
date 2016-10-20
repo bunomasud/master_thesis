@@ -1,0 +1,363 @@
+2016-09-26 13:58:14,746 INFO main ROOT - Starting logging of JavaScriptWorker
+2016-09-26 13:58:14,753 DEBUG main ROOT - Used Logback configuration file: P:\workspace_NT\Appicaptor-common\logback.example.xml
+2016-09-26 13:58:15,156 INFO main de.appicaptor.common.worker.WorkerHttpServer - Creating new HTTP server instance on port 7575
+2016-09-26 13:58:15,882 DEBUG main de.appicaptor.common.worker.WorkerHttpServer - Registering worker ListWorkersImpl to path /info
+2016-09-26 13:58:15,955 DEBUG main de.appicaptor.common.worker.WorkerHttpServer - Registering worker JavaScriptWorker to path /JavaScriptWorker
+2016-09-26 13:58:17,907 DEBUG main de.appicaptor.common.worker.AppicaptorServe - Acceptor created
+2016-09-26 13:58:17,990 DEBUG main de.appicaptor.common.discovery.DiscoveryClient - Worker Discovery client has joined multicast group 225.73.5.5 on loopback interface ID=39631c3a-03c4-3638-aaa6-980d92611853
+2016-09-26 13:58:17,995 DEBUG main de.appicaptor.common.worker.AppicaptorServe - TJWS httpd 127.0.0.1 - [SSL: ServerSocket[addr=127.0.0.1/127.0.0.1,localport=7575]] is listening.
+2016-09-26 13:59:40,396 DEBUG T(0)-483FAE9B de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 13:59:40,446 DEBUG T(0)-483FAE9B de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: 3415a33d8bf4a80e60835682c6aab84b
+2016-09-26 13:59:44,763 DEBUG T(0)-483FAE9B de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 13:59:44,764 DEBUG T(0)-483FAE9B de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: f9716296-7841-4805-b8ad-7178c53c0e4d@PC-HIWI-15:10
+2016-09-26 13:59:44,788 DEBUG T(0)-483FAE9B de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 13:59:54,976 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: com.tmkeen.alquran
+2016-09-26 13:59:54,977 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 13:59:54,977 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4704304373733711535
+2016-09-26 13:59:54,978 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 13:59:54,978 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 13:59:54,979 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 13:59:54,979 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4704304373733711535\com.tmkeen.alquran.ipa
+2016-09-26 13:59:54,979 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 13:59:54,980 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 13:59:54,980 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: 3415a33d8bf4a80e60835682c6aab84b
+2016-09-26 13:59:54,980 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 13:59:54,981 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 13:59:54,982 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 14:00:01,002 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4704304373733711535\ExtractedApp
+2016-09-26 14:00:48,591 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4704304373733711535\ExtractedApp
+2016-09-26 14:00:49,169 DEBUG T(0)-8A2C7641 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4704304373733711535\result.txt
+2016-09-26 14:00:49,972 DEBUG T(0)-D6E1FD19 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 14:00:49,973 DEBUG T(0)-D6E1FD19 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 14:00:49,974 DEBUG T(0)-D6E1FD19 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 14:00:49,974 DEBUG T(0)-D6E1FD19 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4704304373733711535'
+2016-09-26 14:00:52,147 DEBUG T(0)-598A0043 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 14:00:52,148 DEBUG T(0)-598A0043 de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: 7443c8b3e94758b214566daaed3ed4f
+2016-09-26 14:00:52,152 DEBUG T(0)-598A0043 de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 14:00:52,152 DEBUG T(0)-598A0043 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: f9716296-7841-4805-b8ad-7178c53c0e4d@PC-HIWI-15:10
+2016-09-26 14:00:52,153 DEBUG T(0)-598A0043 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 14:00:52,393 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: com.mobile.agar
+2016-09-26 14:00:52,393 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 14:00:52,394 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4663126485182403576
+2016-09-26 14:00:52,394 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 14:00:52,395 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 14:00:52,395 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 14:00:52,395 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4663126485182403576\com.mobile.agar.ipa
+2016-09-26 14:00:52,396 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 14:00:52,396 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 14:00:52,396 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: 7443c8b3e94758b214566daaed3ed4f
+2016-09-26 14:00:52,397 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 14:00:52,397 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 14:00:52,398 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 14:00:52,398 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4663126485182403576\ExtractedApp
+2016-09-26 14:00:52,468 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4663126485182403576\ExtractedApp
+2016-09-26 14:00:52,770 DEBUG T(0)-1C640A8F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4663126485182403576\result.txt
+2016-09-26 14:00:52,914 DEBUG T(0)-69CFA31B de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 14:00:52,915 DEBUG T(0)-69CFA31B de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 14:00:52,915 DEBUG T(0)-69CFA31B de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 14:00:52,916 DEBUG T(0)-69CFA31B de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4663126485182403576'
+2016-09-26 14:56:23,806 DEBUG T(0)-54213B5D de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 14:56:23,807 DEBUG T(0)-54213B5D de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: 92064ceff3b4baf19064d8ad27331dc8
+2016-09-26 14:56:23,809 DEBUG T(0)-54213B5D de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 14:56:23,810 DEBUG T(0)-54213B5D de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: 24d05cb9-b408-43fc-93b6-001f733c0c4d@PC-HIWI-15:12
+2016-09-26 14:56:23,810 DEBUG T(0)-54213B5D de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 14:56:24,873 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: sit.fraunhofer.de.testapp01.JSlibFindtest
+2016-09-26 14:56:24,874 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 14:56:24,875 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1504162748418400669
+2016-09-26 14:56:24,875 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 14:56:24,875 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 14:56:24,876 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 14:56:24,876 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1504162748418400669\sit.fraunhofer.de.testapp01.JSlibFindtest.ipa
+2016-09-26 14:56:24,877 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 14:56:24,877 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 14:56:24,877 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: 92064ceff3b4baf19064d8ad27331dc8
+2016-09-26 14:56:24,878 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 14:56:24,878 DEBUG T(0)-4514247F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 14:56:24,879 DEBUG T(0)-4514247F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 14:56:24,879 DEBUG T(0)-4514247F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1504162748418400669\ExtractedApp
+2016-09-26 14:56:24,905 DEBUG T(0)-4514247F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1504162748418400669\ExtractedApp
+2016-09-26 14:56:25,207 DEBUG T(0)-4514247F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1504162748418400669\result.txt
+2016-09-26 14:56:25,438 DEBUG T(0)-798199DE de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 14:56:25,439 DEBUG T(0)-798199DE de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 14:56:25,440 DEBUG T(0)-798199DE de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 14:56:25,440 DEBUG T(0)-798199DE de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1504162748418400669'
+2016-09-26 15:00:44,611 DEBUG T(0)-30B3C1C3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 15:00:44,612 DEBUG T(0)-30B3C1C3 de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: 2ab5c936913dc8e0dd517d169b685272
+2016-09-26 15:00:44,615 DEBUG T(0)-30B3C1C3 de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 15:00:44,615 DEBUG T(0)-30B3C1C3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: b1494c1a-2505-4d7e-8f18-485aee014c20@PC-HIWI-15:12
+2016-09-26 15:00:44,616 DEBUG T(0)-30B3C1C3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 15:00:45,258 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: sit.fraunhofer.de.testapp01.JSlibFindtest
+2016-09-26 15:00:45,259 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 15:00:45,260 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1160090507623437034
+2016-09-26 15:00:45,261 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 15:00:45,261 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 15:00:45,261 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 15:00:45,262 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1160090507623437034\sit.fraunhofer.de.testapp01.JSlibFindtest.ipa
+2016-09-26 15:00:45,263 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 15:00:45,263 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 15:00:45,263 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: 2ab5c936913dc8e0dd517d169b685272
+2016-09-26 15:00:45,264 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 15:00:45,265 DEBUG T(0)-855351A7 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 15:00:45,266 DEBUG T(0)-855351A7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 15:00:45,266 DEBUG T(0)-855351A7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1160090507623437034\ExtractedApp
+2016-09-26 15:00:45,293 DEBUG T(0)-855351A7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1160090507623437034\ExtractedApp
+2016-09-26 15:00:45,596 DEBUG T(0)-855351A7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1160090507623437034\result.txt
+2016-09-26 15:00:45,809 DEBUG T(0)-0A868B82 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 15:00:45,809 DEBUG T(0)-0A868B82 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 15:00:45,810 DEBUG T(0)-0A868B82 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 15:00:45,810 DEBUG T(0)-0A868B82 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1160090507623437034'
+2016-09-26 15:22:53,406 DEBUG T(0)-2359B0FA de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 15:22:53,406 DEBUG T(0)-2359B0FA de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: 98f3a62e17cad4ac970a1e5cd5c8a442
+2016-09-26 15:22:53,409 DEBUG T(0)-2359B0FA de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 15:22:53,410 DEBUG T(0)-2359B0FA de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: e41926b8-097d-43be-b86b-9b648557b149@PC-HIWI-15:12
+2016-09-26 15:22:53,410 DEBUG T(0)-2359B0FA de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 15:22:54,399 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: sit.fraunhofer.de.testapp01.JSlibFindtest
+2016-09-26 15:22:54,400 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 15:22:54,400 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4686116960707890918
+2016-09-26 15:22:54,400 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 15:22:54,401 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 15:22:54,401 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 15:22:54,401 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4686116960707890918\sit.fraunhofer.de.testapp01.JSlibFindtest.ipa
+2016-09-26 15:22:54,402 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 15:22:54,402 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 15:22:54,403 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: 98f3a62e17cad4ac970a1e5cd5c8a442
+2016-09-26 15:22:54,403 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 15:22:54,403 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 15:22:54,404 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 15:22:54,404 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4686116960707890918\ExtractedApp
+2016-09-26 15:22:54,708 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4686116960707890918\ExtractedApp
+2016-09-26 15:23:07,732 DEBUG pool-10-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js
+2016-09-26 15:23:07,985 DEBUG pool-10-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js
+2016-09-26 15:23:09,376 DEBUG pool-10-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js
+2016-09-26 15:23:09,378 DEBUG pool-10-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.1/js/angular/angular.min.js
+2016-09-26 15:23:09,379 DEBUG pool-10-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.0/js/angular/angular.min.js
+2016-09-26 15:23:09,896 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.1/js/angular/angular.min.js
+2016-09-26 15:23:09,899 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.5/js/angular/angular.min.js
+2016-09-26 15:23:09,900 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.4/js/angular/angular.min.js
+2016-09-26 15:23:09,900 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.3/js/angular/angular.min.js
+2016-09-26 15:23:09,901 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.2/js/angular/angular.min.js
+2016-09-26 15:23:09,902 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0/js/angular/angular.min.js
+2016-09-26 15:23:09,903 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.1/js/angular/angular.min.js
+2016-09-26 15:23:09,904 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.0/js/angular/angular.min.js
+2016-09-26 15:23:09,905 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js
+2016-09-26 15:23:10,321 DEBUG pool-10-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js
+2016-09-26 15:23:14,138 DEBUG pool-10-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js
+2016-09-26 15:23:14,503 DEBUG pool-10-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.js
+2016-09-26 15:23:16,689 DEBUG pool-10-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.js
+2016-09-26 15:23:28,012 DEBUG pool-10-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.min.js
+2016-09-26 15:23:34,238 DEBUG pool-10-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ext-core/3.1.0/ext-core.js
+2016-09-26 15:23:36,605 DEBUG pool-10-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.2/jquery.mobile.min.js
+2016-09-26 15:23:37,278 DEBUG pool-10-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js
+2016-09-26 15:23:37,310 DEBUG pool-10-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js
+2016-09-26 15:23:42,881 DEBUG pool-10-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.0/jquery.mobile.min.js
+2016-09-26 15:23:50,638 DEBUG pool-10-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js
+2016-09-26 15:23:58,794 DEBUG pool-10-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js
+2016-09-26 15:23:58,884 DEBUG T(0)-9FEE3D07 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4686116960707890918\result.txt
+2016-09-26 15:23:59,633 DEBUG T(0)-8CB91677 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 15:23:59,634 DEBUG T(0)-8CB91677 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 15:23:59,634 DEBUG T(0)-8CB91677 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 15:23:59,635 DEBUG T(0)-8CB91677 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4686116960707890918'
+2016-09-26 17:09:19,338 DEBUG T(0)-AD447F80 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 17:09:19,339 DEBUG T(0)-AD447F80 de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: f9afb7e1309e7d0a8b0ac50f1e3412a9
+2016-09-26 17:09:19,342 DEBUG T(0)-AD447F80 de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 17:09:19,343 DEBUG T(0)-AD447F80 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: ffb0ea04-70a8-42ec-b6cb-cb2bd46dde70@PC-HIWI-15:12
+2016-09-26 17:09:19,343 DEBUG T(0)-AD447F80 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 17:09:20,566 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: sit.fraunhofer.de.testapp01.JSlibFindtest
+2016-09-26 17:09:20,566 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 17:09:20,567 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4931124686502557829
+2016-09-26 17:09:20,567 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:09:20,568 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 17:09:20,568 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 17:09:20,568 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4931124686502557829\sit.fraunhofer.de.testapp01.JSlibFindtest.ipa
+2016-09-26 17:09:20,569 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 17:09:20,569 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 17:09:20,569 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: f9afb7e1309e7d0a8b0ac50f1e3412a9
+2016-09-26 17:09:20,570 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:09:20,570 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 17:09:20,571 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 17:09:20,571 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4931124686502557829\ExtractedApp
+2016-09-26 17:09:20,858 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4931124686502557829\ExtractedApp
+2016-09-26 17:09:30,006 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.1/js/angular/angular.min.js
+2016-09-26 17:09:30,006 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.5/js/angular/angular.min.js
+2016-09-26 17:09:30,007 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.4/js/angular/angular.min.js
+2016-09-26 17:09:30,007 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.3/js/angular/angular.min.js
+2016-09-26 17:09:30,008 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.2/js/angular/angular.min.js
+2016-09-26 17:09:30,008 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0/js/angular/angular.min.js
+2016-09-26 17:09:30,013 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.1/js/angular/angular.min.js
+2016-09-26 17:09:30,018 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.0/js/angular/angular.min.js
+2016-09-26 17:09:30,019 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js
+2016-09-26 17:09:31,849 DEBUG pool-12-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js
+2016-09-26 17:09:35,554 DEBUG pool-12-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js
+2016-09-26 17:09:35,556 DEBUG pool-12-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.1/js/angular/angular.min.js
+2016-09-26 17:09:35,556 DEBUG pool-12-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.0/js/angular/angular.min.js
+2016-09-26 17:09:35,890 DEBUG pool-12-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.js
+2016-09-26 17:09:38,468 DEBUG pool-12-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js
+2016-09-26 17:09:43,334 DEBUG pool-12-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js
+2016-09-26 17:09:50,433 DEBUG pool-12-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.js
+2016-09-26 17:09:56,186 DEBUG pool-12-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.0/jquery.mobile.min.js
+2016-09-26 17:09:56,377 DEBUG pool-12-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js
+2016-09-26 17:10:11,309 DEBUG pool-12-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ext-core/3.1.0/ext-core.js
+2016-09-26 17:10:15,831 DEBUG pool-12-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js
+2016-09-26 17:10:25,259 DEBUG pool-12-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.2/jquery.mobile.min.js
+2016-09-26 17:10:31,473 DEBUG pool-12-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js
+2016-09-26 17:10:39,005 DEBUG pool-12-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.min.js
+2016-09-26 17:10:39,011 DEBUG pool-12-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js
+2016-09-26 17:10:39,038 DEBUG pool-12-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js
+2016-09-26 17:10:44,771 DEBUG T(0)-5E46E965 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4931124686502557829\result.txt
+2016-09-26 17:10:45,690 DEBUG T(0)-154F8A0E de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 17:10:45,691 DEBUG T(0)-154F8A0E de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 17:10:45,692 DEBUG T(0)-154F8A0E de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 17:10:45,692 DEBUG T(0)-154F8A0E de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4931124686502557829'
+2016-09-26 17:17:49,711 DEBUG T(0)-006CEB88 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 17:17:49,712 DEBUG T(0)-006CEB88 de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: cc1e53561d2a8c154b30c0d10fcf7e65
+2016-09-26 17:17:49,715 DEBUG T(0)-006CEB88 de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 17:17:49,715 DEBUG T(0)-006CEB88 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: b15f990a-4a40-481c-8914-5c674ce36988@PC-HIWI-15:12
+2016-09-26 17:17:49,716 DEBUG T(0)-006CEB88 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 17:17:51,530 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: sit.fraunhofer.de.testapp01.JSlibFindtest
+2016-09-26 17:17:51,531 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 17:17:51,531 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager5646619652417056931
+2016-09-26 17:17:51,532 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:17:51,532 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 17:17:51,533 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 17:17:51,533 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager5646619652417056931\sit.fraunhofer.de.testapp01.JSlibFindtest.ipa
+2016-09-26 17:17:51,533 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 17:17:51,534 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 17:17:51,534 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: cc1e53561d2a8c154b30c0d10fcf7e65
+2016-09-26 17:17:51,534 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:17:51,535 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 17:17:51,535 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 17:17:51,536 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager5646619652417056931\ExtractedApp
+2016-09-26 17:17:51,813 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager5646619652417056931\ExtractedApp
+2016-09-26 17:18:04,426 DEBUG pool-14-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js
+2016-09-26 17:18:04,427 DEBUG pool-14-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.1/js/angular/angular.min.js
+2016-09-26 17:18:04,428 DEBUG pool-14-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.0/js/angular/angular.min.js
+2016-09-26 17:18:04,759 DEBUG pool-14-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js
+2016-09-26 17:18:07,339 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.1/js/angular/angular.min.js
+2016-09-26 17:18:07,340 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.5/js/angular/angular.min.js
+2016-09-26 17:18:07,341 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.4/js/angular/angular.min.js
+2016-09-26 17:18:07,342 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.3/js/angular/angular.min.js
+2016-09-26 17:18:07,343 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.2/js/angular/angular.min.js
+2016-09-26 17:18:07,344 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0/js/angular/angular.min.js
+2016-09-26 17:18:07,344 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.1/js/angular/angular.min.js
+2016-09-26 17:18:07,344 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.0/js/angular/angular.min.js
+2016-09-26 17:18:07,345 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js
+2016-09-26 17:18:07,362 DEBUG pool-14-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js
+2016-09-26 17:18:09,945 DEBUG pool-14-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.js
+2016-09-26 17:18:15,307 DEBUG pool-14-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js
+2016-09-26 17:18:28,858 DEBUG pool-14-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js
+2016-09-26 17:18:40,430 DEBUG pool-14-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.js
+2016-09-26 17:18:40,437 DEBUG pool-14-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ext-core/3.1.0/ext-core.js
+2016-09-26 17:18:47,062 DEBUG pool-14-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js
+2016-09-26 17:19:00,882 DEBUG pool-14-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.2/jquery.mobile.min.js
+2016-09-26 17:19:07,173 DEBUG pool-14-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.0/jquery.mobile.min.js
+2016-09-26 17:19:07,179 DEBUG pool-14-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js
+2016-09-26 17:19:14,096 DEBUG pool-14-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.min.js
+2016-09-26 17:19:14,118 DEBUG pool-14-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js
+2016-09-26 17:19:28,724 DEBUG pool-14-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js
+2016-09-26 17:19:28,779 DEBUG T(0)-E7C25300 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager5646619652417056931\result.txt
+2016-09-26 17:19:29,649 DEBUG T(0)-97F08C8A de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 17:19:29,650 DEBUG T(0)-97F08C8A de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 17:19:29,650 DEBUG T(0)-97F08C8A de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 17:19:29,651 DEBUG T(0)-97F08C8A de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager5646619652417056931'
+2016-09-26 17:35:24,202 DEBUG T(0)-230CDA0A de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 17:35:24,203 DEBUG T(0)-230CDA0A de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: cfb6416e1bad649066be61d3da8660c4
+2016-09-26 17:35:24,206 DEBUG T(0)-230CDA0A de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 17:35:24,208 DEBUG T(0)-230CDA0A de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: dd81f8ec-a0a6-4ec3-b48f-4de352cb8322@PC-HIWI-15:12
+2016-09-26 17:35:24,209 DEBUG T(0)-230CDA0A de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 17:35:25,177 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: sit.fraunhofer.de.testapp01.JSlibFindtest
+2016-09-26 17:35:25,178 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 17:35:25,179 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4119100925612448957
+2016-09-26 17:35:25,180 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:35:25,181 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 17:35:25,182 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 17:35:25,183 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4119100925612448957\sit.fraunhofer.de.testapp01.JSlibFindtest.ipa
+2016-09-26 17:35:25,184 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 17:35:25,184 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 17:35:25,184 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: cfb6416e1bad649066be61d3da8660c4
+2016-09-26 17:35:25,185 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:35:25,185 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 17:35:25,186 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 17:35:25,186 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4119100925612448957\ExtractedApp
+2016-09-26 17:35:25,474 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4119100925612448957\ExtractedApp
+2016-09-26 17:35:39,903 DEBUG pool-16-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js
+2016-09-26 17:35:40,049 DEBUG pool-16-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js
+2016-09-26 17:35:40,051 DEBUG pool-16-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.1/js/angular/angular.min.js
+2016-09-26 17:35:40,052 DEBUG pool-16-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.0/js/angular/angular.min.js
+2016-09-26 17:35:40,334 DEBUG pool-16-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js
+2016-09-26 17:35:45,680 DEBUG pool-16-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.js
+2016-09-26 17:35:51,333 DEBUG pool-16-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js
+2016-09-26 17:35:51,350 DEBUG pool-16-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js
+2016-09-26 17:35:53,940 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.1/js/angular/angular.min.js
+2016-09-26 17:35:53,942 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.5/js/angular/angular.min.js
+2016-09-26 17:35:53,943 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.4/js/angular/angular.min.js
+2016-09-26 17:35:53,944 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.3/js/angular/angular.min.js
+2016-09-26 17:35:53,945 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.2/js/angular/angular.min.js
+2016-09-26 17:35:53,946 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0/js/angular/angular.min.js
+2016-09-26 17:35:53,947 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.1/js/angular/angular.min.js
+2016-09-26 17:35:53,948 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.0/js/angular/angular.min.js
+2016-09-26 17:35:53,949 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js
+2016-09-26 17:36:02,184 DEBUG pool-16-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.js
+2016-09-26 17:36:10,933 DEBUG pool-16-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.2/jquery.mobile.min.js
+2016-09-26 17:36:22,888 DEBUG pool-16-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ext-core/3.1.0/ext-core.js
+2016-09-26 17:36:22,911 DEBUG pool-16-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js
+2016-09-26 17:36:24,083 DEBUG pool-16-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js
+2016-09-26 17:36:29,872 DEBUG pool-16-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.0/jquery.mobile.min.js
+2016-09-26 17:36:29,875 DEBUG pool-16-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.min.js
+2016-09-26 17:36:43,098 DEBUG pool-16-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js
+2016-09-26 17:36:43,733 DEBUG pool-16-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js
+2016-09-26 17:37:01,915 DEBUG T(0)-B8CADF1C de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4119100925612448957\result.txt
+2016-09-26 17:37:02,904 DEBUG T(0)-C7668A27 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 17:37:02,904 DEBUG T(0)-C7668A27 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 17:37:02,905 DEBUG T(0)-C7668A27 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 17:37:02,905 DEBUG T(0)-C7668A27 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager4119100925612448957'
+2016-09-26 17:41:46,138 DEBUG T(0)-718277A6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: startAppSession
+2016-09-26 17:41:46,139 DEBUG T(0)-718277A6 de.appicaptor.jsworker.workcache.WorkCacheManager - Initializing WorkCacheEntry: c3e9e522cce830ddbb58140166ad9802
+2016-09-26 17:41:46,143 DEBUG T(0)-718277A6 de.appicaptor.jsworker.workcache.WorkCacheManager - IPA written to WCM
+2016-09-26 17:41:46,143 DEBUG T(0)-718277A6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Current ClientSessionId: b0d1013b-9579-437e-9c0b-5e01ee6a8557@PC-HIWI-15:12
+2016-09-26 17:41:46,144 DEBUG T(0)-718277A6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - WorkCacheManager initial state:
+2016-09-26 17:41:47,052 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry bundleId: sit.fraunhofer.de.testapp01.JSlibFindtest
+2016-09-26 17:41:47,053 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry deviceAppInfo-BundleIdentifier: NOT FOUND
+2016-09-26 17:41:47,054 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBaseDir: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1561443666791267083
+2016-09-26 17:41:47,055 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:41:47,055 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinary: NOT FOUND
+2016-09-26 17:41:47,055 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerExtractedBundle: NOT FOUND
+2016-09-26 17:41:47,056 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerIpa: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1561443666791267083\sit.fraunhofer.de.testapp01.JSlibFindtest.ipa
+2016-09-26 17:41:47,056 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry #subdirectories: 0
+2016-09-26 17:41:47,056 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry decryptedBinary: NOT FOUND
+2016-09-26 17:41:47,057 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry sessionID: c3e9e522cce830ddbb58140166ad9802
+2016-09-26 17:41:47,057 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry workerBinaryDir: NOT FOUND
+2016-09-26 17:41:47,057 DEBUG T(0)-507AF21F de.appicaptor.jsworker.workcache.WorkCacheManager - WCM-Entry md5ofBinary: NOT FOUND
+2016-09-26 17:41:47,058 DEBUG T(0)-507AF21F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: unzipArchive
+2016-09-26 17:41:47,059 DEBUG T(0)-507AF21F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Start: outputDirC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1561443666791267083\ExtractedApp
+2016-09-26 17:41:47,372 DEBUG T(0)-507AF21F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: extractedPathC:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1561443666791267083\ExtractedApp
+2016-09-26 17:42:02,905 DEBUG pool-18-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js
+2016-09-26 17:42:02,940 DEBUG pool-18-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js
+2016-09-26 17:42:09,165 DEBUG pool-18-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.js
+2016-09-26 17:42:09,234 DEBUG pool-18-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.js
+2016-09-26 17:42:13,117 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.1/js/angular/angular.min.js
+2016-09-26 17:42:13,119 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.5/js/angular/angular.min.js
+2016-09-26 17:42:13,120 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.4/js/angular/angular.min.js
+2016-09-26 17:42:13,120 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.3/js/angular/angular.min.js
+2016-09-26 17:42:13,120 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.2/js/angular/angular.min.js
+2016-09-26 17:42:13,121 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0/js/angular/angular.min.js
+2016-09-26 17:42:13,121 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.1/js/angular/angular.min.js
+2016-09-26 17:42:13,121 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.0/js/angular/angular.min.js
+2016-09-26 17:42:13,122 DEBUG pool-18-thread-3 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js
+2016-09-26 17:42:14,942 DEBUG pool-18-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js
+2016-09-26 17:42:25,468 DEBUG pool-18-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js
+2016-09-26 17:42:27,714 DEBUG pool-18-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js
+2016-09-26 17:42:27,715 DEBUG pool-18-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.1/js/angular/angular.min.js
+2016-09-26 17:42:27,716 DEBUG pool-18-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.0/js/angular/angular.min.js
+2016-09-26 17:42:27,718 DEBUG pool-18-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/ext-core/3.1.0/ext-core.js
+2016-09-26 17:42:53,497 DEBUG pool-18-thread-1 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js
+2016-09-26 17:42:55,810 DEBUG pool-18-thread-8 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.0/jquery.mobile.min.js
+2016-09-26 17:43:07,485 DEBUG pool-18-thread-5 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.2/jquery.mobile.min.js
+2016-09-26 17:43:08,926 DEBUG pool-18-thread-4 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js
+2016-09-26 17:43:20,422 DEBUG pool-18-thread-2 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js
+2016-09-26 17:43:20,953 DEBUG pool-18-thread-7 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.4/jquery.mobile.min.js
+2016-09-26 17:43:29,157 DEBUG pool-18-thread-6 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Match Found! to FRAhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js
+2016-09-26 17:43:37,753 DEBUG T(0)-507AF21F de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - LibPath: C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1561443666791267083\result.txt
+2016-09-26 17:43:38,416 DEBUG T(0)-543E2A13 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: endAppSession
+2016-09-26 17:43:38,417 DEBUG T(0)-543E2A13 de.appicaptor.jsworker.javascriptworker.JavaScriptWorker - Starting: deleteClientSession
+2016-09-26 17:43:38,417 DEBUG T(0)-543E2A13 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting: deinitializeCache
+2016-09-26 17:43:38,418 DEBUG T(0)-543E2A13 de.appicaptor.jsworker.workcache.WorkCacheManager - Starting recursive delete of 'C:\Users\RAHMAN~1.SIT\AppData\Local\Temp\WorkCacheManager1561443666791267083'

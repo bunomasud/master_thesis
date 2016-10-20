@@ -1,0 +1,48 @@
+{
+  "name": "new-website",
+  "version": "0.0.0",
+  "description": "new-website ===========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startWeb": "node webServer.js",
+    "startAPI": "node apiServer.js",
+    "reindex": "node reindex.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cdnjs/new-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdnjs/new-website/issues"
+  },
+  "homepage": "https://github.com/cdnjs/new-website",
+  "engines": {
+    "node": "^4.2.3"
+  },
+  "dependencies": {
+    "JSONStream": "^1.1.1",
+    "algoliasearch": "^3.11",
+    "async": "^1.5.2",
+    "body-parser": "^1.14",
+    "colors": "^1.1.2",
+    "compression": "^1.6",
+    "condense-whitespace": "^1.0.0",
+    "express": "^4.13",
+    "git-url-parse": "^5.0.1",
+    "github": "^0.2",
+    "gravatar": "^1.4.0",
+    "highlight.js": "^9.1.0",
+    "lodash": "^4.5",
+    "markdown": "^0.5.0",
+    "marked": "^0.3.5",
+    "mustache": "^2.2.1",
+    "newline-remove": "^1.0.2",
+    "newrelic": "^1.25.1",
+    "node-rest-client": "^1.8.0",
+    "replaceall": "^0.1.6",
+    "throng": "^1.0.1"
+  }
+}
