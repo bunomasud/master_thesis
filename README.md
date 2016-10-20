@@ -4,11 +4,11 @@ The ability to use JavaScript in mobile operating systems like Apple iOS and Goo
 
 Approach: Some open source CDN providers like cdnjs.com and jsDeliver.com host most popular libraries and their available versions. Among these two, cdnjs.com hosts almost 2400 libraries and their versions which are available to download. Moreover, cdnjs.com provides API to get the list of files of libraries and versions which makes it possible to download them programmatically and do processing on them. Components of the proposed architecture will be following.
 
-1.	Library downloader: Will use the cdsjs.com API to download the libraries hosted in cdnjs.com and put them into database. An auto updater will keep the database updated periodically.
-2.	Fingerprint Generator: A fingerprint generator will process the downloaded file and generate the fingerprints for each files and put them into database.
-3.	Matcher: A Node.js server which will provide the API to upload JavaScript files from the extracted app and return the approximate library name and version number based on the similarity detection technique.
+1.	Library downloader: This uses the cdsjs.com API to download the libraries hosted in cdnjs.com and put them into database. An auto updater keeps the database updated periodically.(CronTask.js)
+2.	Fingerprint Generator: A fingerprint generator will process the downloaded file and generate the fingerprints for each files and put them into database.(master/child_Downloader.js)
+3.	Matcher: A Node.js server which will provide the API to upload JavaScript files from the extracted app and return the approximate library name and version number based on the similarity detection technique.(NodeApi.js)
 
-To conduct this research on a large scale, automatic downloading of the hybrid apps is also required. Appicaptor as a framework has this feature to be able to download the apps programmatically from both Play Store and iTunes.  As a part of the Appicaptor architecture, A JavaScript worker will accept JavaScript files extracted from
+To conduct this research on a large scale, automatic downloading of the hybrid apps is also required. Appicaptor as a framework has this feature to be able to download the apps programmatically from both Play Store and iTunes.  As a part of the Appicaptor(https://www.sit.fraunhofer.de/en/appicaptor/ ) architecture, A JavaScript worker will accept JavaScript files extracted from
 Hybrid Apps. The worker will then communicate with an API provided by the Matcher which will run the analysis based on the generated fingerprints on the extracted JavaScript files and in response provide the exact or partial match of a JavaScript library. 
 
 How to Use it:
@@ -16,10 +16,10 @@ How to Use it:
 
 1. Run Cdn Js Api/apiServer.js with the command line node apiServer.Js. This reflects the api provided by api.cdnjs.com, but has been modified to be able work with fingerprint generator
 
-2. Run Node Api/CronTask.js this will use the apiSrver.js and download "backbone.marionette","Trumbowyg","angular.js","backbone.js","angular-i18n","yui" libraries and generate fingerprint. Uncomment the for loop section to mirror the whole cndjs libraries. also a mongo Db URL needs to be provided.
+2. Run Node Api/CronTask.js this will use the apiSrver.js and download "backbone.marionette","Trumbowyg","angular.js","backbone.js","angular-i18n","yui" libraries and generate fingerprint. Uncomment the for loop section to mirror the whole cndjs libraries. also a mongo Db URL needs to be provided. Here Cron task is scheduled to run evreyday at 18:35:15(Hour/min/Sec) Adjust the time before running it.
 
 3. Run Node Api/NodeApi.js to use the file path to know the detected libraries.
 
-4. Javascript worker is the sample java client that is using the NodeApi for analysis.
+4. Javascript worker is the sample java client that is using the NodeApi for analysis. CallToNodeAPI @JavaScriptWorker.java is a sample multithreaded implementation. 
 
 
